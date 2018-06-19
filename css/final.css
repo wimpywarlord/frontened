@@ -48,6 +48,7 @@ div {
   width: 90vw;
   margin-top: 3vh;
   margin-left: 2vw;
+  font-size: 2vh;
   font-weight: bold;
   color: #fff;
 }
@@ -83,15 +84,16 @@ div {
 .main_content {
     width: 100%;
     height: 100%;
-    margin-top: 240px;
+    margin-top: 13%;
 }
 
 .l1{
-    font-size: 10vh;
+    font-size: 9.5vh;
     font-family: "Gill Sans", sans-serif;
     letter-spacing: -0.2vw;
     color: #bbb;
     text-align: center;
+    font-weight: bold;
 }
 
 .l2{
@@ -100,46 +102,45 @@ div {
     font-size: 6vh;
     color: #bbb;
     text-align: center;
+    font-weight: bold;
 }
 
 .l3{
-  font-size: 2vh;
+  word-spacing: 50%;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
   color: #bbb;
-  font-weight: 500;
   text-align: center;
-  font-weight: bold;
 }
 
 desc {
-  margin: auto;
+  width: 100%;
 	text-align: center;
 }
 
 .button {
-	background-color: #4CAF50;
+  background: transparent;
+  margin: auto;
 	border: none;
 	color: white;
-	padding: 2% 2%;
 	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-family: arial;
-	font-size: 2vh;
+  display: inline-block;
+	font-size: 3vh;
 	cursor: pointer;
-	width: 7vw;
-	height: 1vh;
+	width: 12vw;
+	height: 6vh;
+  margin-top: 8vh;
 }
-.remove {
-	margin-left: 2%;
-	background-color: white;
-	color: #800000;
-	border: 2px solid #800000;
-	border-radius: 5%;
+.login {
+	color: #fff;
+  margin-left: 36%;
+	border: 0.5vh solid #fff;
+	border-radius: 3%;
 }
-.buy {
-	margin-left: 2%;
-	background-color: white;
-	color: green;
-	border: 2px solid green;
-	border-radius: 5%;
+.sign_up {
+	color: #000;
+  margin-left: 2%;
+  background-color: #41c7f4;
+	border: 0.5vh solid #41c7f4;
+	border-radius: 3%;
 }
