@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+    background: #111;
+    color: #6e6e6e;
+}
+
+div {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12vh;
+    padding-left: 48px;
+    padding-right: 48px;
+    z-index: 20;
+    background: #000;
+    border-bottom: 2px solid black;
+}
+
+.logo_container {
+    flex-basis: 50%;
+}
+
+.logo {
+    margin-left: 1vw;
+}
+
+.logo a {
+    font-size: 4.5vh;
+    color: #42f4f4;
+    text-transform: uppercase;
+}
+
+.line{
+  width: 90vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  font-weight: bold;
+  color: #fff;
+}
+.main_nav {
+    margin-right: 8vw;
+    height: 100%;
+    flex-basis: 200%;
+    text-align: right;
+}
+
+.nav_items {
+    height: 100%;
+}
+
+.nav_items li {
+    display: inline-block;
+    margin-left: 35px;
+    height: 100%;
+}
+
+.nav_items li a {
+    font-size: 30px;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+
+.main_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 240px;
+}
+
+.l1{
+    font-size: 10vh;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: -0.2vw;
+    color: #bbb;
+    text-align: center;
+}
+
+.l2{
+    margin-top: -2vh;
+    letter-spacing: -0.1vw;
+    font-size: 6vh;
+    color: #bbb;
+    text-align: center;
+}
+
+.l3{
+  font-size: 2vh;
+  color: #bbb;
+  font-weight: 500;
+  text-align: center;
+  font-weight: bold;
+}
+
+desc {
+  margin: auto;
+	text-align: center;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 2% 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: arial;
+	font-size: 2vh;
+	cursor: pointer;
+	width: 7vw;
+	height: 1vh;
+}
+.remove {
+	margin-left: 2%;
+	background-color: white;
+	color: #800000;
+	border: 2px solid #800000;
+	border-radius: 5%;
+}
+.buy {
+	margin-left: 2%;
+	background-color: white;
+	color: green;
+	border: 2px solid green;
+	border-radius: 5%;
+}
