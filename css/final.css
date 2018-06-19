@@ -41,8 +41,9 @@ div {
 }
 
 .logo a {
-    font-size: 4.5vh;
+    font-size: 6vh;
     color: #42f4f4;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -72,7 +73,7 @@ div {
 }
 
 .nav_items li a {
-    font-size: 30px;
+    font-size: 4.5vh;
     color: #fff;
     height: 100%;
     display: flex;
@@ -83,6 +84,9 @@ div {
     padding-right: 10px;
 }
 
+.nav_items li a{
+  text-decoration: none;
+}
 .main_content {
     width: 100%;
     height: 100%;
