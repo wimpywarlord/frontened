@@ -4,10 +4,12 @@
 }
 
 body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-o
     font-size: 15px;
     line-height: 2;
     font-weight: 400;
-    background: #111;
     color: #6e6e6e;
 }
 
@@ -91,7 +93,7 @@ div {
     font-size: 9.5vh;
     font-family: "Gill Sans", sans-serif;
     letter-spacing: -0.2vw;
-    color: #bbb;
+    color: #eee;
     text-align: center;
     font-weight: bold;
 }
@@ -100,7 +102,7 @@ div {
     margin-top: -2vh;
     letter-spacing: -0.1vw;
     font-size: 6vh;
-    color: #bbb;
+    color: #eee;
     text-align: center;
     font-weight: bold;
 }
@@ -109,7 +111,7 @@ div {
   word-spacing: 50%;
   font-size: 2.5vh;
   line-height: 3.5vh;
-  color: #bbb;
+  color: #eee;
   text-align: center;
 }
 
