@@ -32,15 +32,12 @@ div {
     border-bottom: 2px solid black;
 }
 
-.logo_container {
-    flex-basis: 50%;
-}
-
 .logo {
     margin-left: 1vw;
 }
 
 .logo a {
+    font-weight: bold;
     font-size: 6vh;
     color: #42f4f4;
     text-decoration: none;
@@ -66,7 +63,7 @@ div {
     height: 100%;
 }
 
-.nav_items li {
+.nav_items li:not(.hide) {
     display: inline-block;
     margin-left: 35px;
     height: 100%;
@@ -82,15 +79,15 @@ div {
     align-items: center;
     padding-left: 14px;
     padding-right: 10px;
-}
-
-.nav_items li a{
-  text-decoration: none;
+    text-decoration: none;
 }
 .main_content {
     width: 100%;
     height: 100%;
     margin-top: 13%;
+}
+.hide {
+  display: none;
 }
 
 .l1{
@@ -149,4 +146,61 @@ desc {
   background-color: #41c7f4;
 	border: 0.5vh solid #41c7f4;
 	border-radius: 3%;
+}
+
+@media screen and (max-width: 850px) {
+  .logo a {
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+  .header {
+      height: 48vh;
+      padding-left: 48px;
+      padding-right: 48px;
+  }
+  .main_content {
+    margin-top: 48vh;
+  }
+  .nav_items li:not(.hide) {
+    display: block;
+    margin-left: 0;
+    height: 25%;
+  }
+  .main_nav {
+    text-align: center;
+  }
+  .hide{
+    display: block;
+    margin-left: 0;
+    height: 25%;
+    color: #42f4f4;
+    display: block;
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 10vw;
+    text-decoration: none;
+  }
+  .button {
+    display: inline-block;
+  	font-size: 4vw;
+  	cursor: pointer;
+  	width: 24vw;
+  	height: 9vw;
+    margin-top: 8vw;
+    margin-bottom: 3vh;
+  }
+  .login {
+    margin-left: 25%;
+  }
+  .sign_up {
+    margin-left: 1%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .line{
+    display: none;
+  }
 }
