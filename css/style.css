@@ -137,7 +137,12 @@ i{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
+.org_sign{
+  background-color: #10c144;
+}
+.org{
+  color: #10c144;
+}
 @media screen and (max-width: 850px) {
   .phrase{
     display: none;
