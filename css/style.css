@@ -180,7 +180,7 @@
   padding: 15px;
   background: #eee;
   color: #809190;
-  font-size: 20px;
+  font-size: 1.5vw;
   float: left;
   width: 50%;
   text-align: center;
@@ -220,5 +220,8 @@
          margin-top: 50vh;
          margin-left: 2.5%;
          width: 95%
+    }
+    .tab-group li a {
+      font-size: 3.8vw;
     }
 }
