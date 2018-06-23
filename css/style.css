@@ -7,7 +7,7 @@
      display: inline-block;
 }
  .form {
-     background: #eee;
+     background: #ddd;
      padding: 3%;
      width: 40%;
      margin-top: 15vh;
@@ -55,7 +55,7 @@
      margin: 0;
 }
  n{
-     color: #2040f2;
+     color: #008080;
 }
  i{
      color: #f44177;
@@ -68,7 +68,7 @@
      font-weight: 600;
      letter-spacing: .1em;
      color: #ffffff;
-     background: #2040f2;
+     background: #008080;
      display: block;
      margin-left: 30%;
      width: 40%;
@@ -108,7 +108,7 @@
 }
 /* When the checkbox is checked, add a blue background */
  .container input:checked ~ .checkmark {
-     background: #2040f2;
+     background: #008080;
 }
  .container input:checked ~ .checkorg {
      background-color: #10c144;
@@ -178,8 +178,8 @@
   display: block;
   text-decoration: none;
   padding: 15px;
-  background: rgba(160, 179, 176, 0.25);
-  color: #a0b3b0;
+  background: #eee;
+  color: #809190;
   font-size: 20px;
   float: left;
   width: 50%;
@@ -192,7 +192,7 @@
   color: #fff;
 }
 .tab-group .active a {
-  background: #222;
+  background: #111;
   color: #fff;
 }
 
