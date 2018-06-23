@@ -11,10 +11,10 @@ $('.tab a').on('click', function (e) {
 
   $(target).fadeIn(600);
 
-  if(target == "#signup"){
+  if(target == "#signup" && $("#comm").is(":visible")){
     $("#comm").hide();
     $("#user").fadeIn(600);
-  } else{
+  } else if($("#user").is(":visible")){
     $("#user").hide();
     $("#comm").fadeIn(600);
   }
