@@ -9,20 +9,11 @@
     <link rel=stylesheet type=text/css href="css/bootstrap4/bootstrap.min.css">
     <link rel=stylesheet type=text/css href="css/home.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <style>
       .signup{
       display: block;
       }
     </style>
-    <!--Calender-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("#datepicker").datepicker();
-      });
-    </script>
     <script src="js/signup_validator.js"></script>
   </head>
   <body>
@@ -49,32 +40,27 @@
     <div class="signup">
       <div class="phrase l1">
         <p>
-          SIGNING UP AS A <n>USER</n>!
+          SIGNING UP AS A <n class="org">COMMUNITY</n>!
         </p>
       </div>
       <div class="form">
-        <form action="/" method="post"  name="myForm" onsubmit="return(validate());">
-          <div class="top-row">
-            <div class="field-wrap">
-              <input type="text" placeholder="First Name" required autocomplete="off" />
-            </div>
-            <div class="field-wrap">
-              <input type="text" placeholder="Last Name" required autocomplete="off"/>
-            </div>
+        <form action="/" method="post" name="myForm" onsubmit="return(validate());">
+          <div class="field-wrap">
+            <input type="text" placeholder="Organization's Full Name" required autocomplete="off" />
           </div>
           <div class="field-wrap">
             <input type="email" name="EMail" placeholder="Email Address" required autocomplete="off"/>
           </div>
           <div class="top-row">
             <div class="field-wrap">
-              <input id="datepicker" placeholder="Date of Birth- DD/MM/YY" required autocomplete="off"/>
+              <input type="text" placeholder="Admin's Full Name" required autocomplete="off" />
             </div>
             <div class="field-wrap">
-              <select name="Gender" id="drop" required>
-                <option value="" disabled selected>Gender M/F/Other</option>
-                <option value="1">Don't want to tell</option>
-                <option value="2">Male</option>
-                <option value="3">Female</option>
+              <select name="Organiztion Type" id="drop" required>
+                <option value="" disabled selected>Organization Type</option>
+                <option value="1">Type A</option>
+                <option value="2">Type B</option>
+                <option value="3">Type C</option>
                 <option value="4">Other</option>
               </select>
             </div>
@@ -83,7 +69,7 @@
             <input type="text" placeholder="Github Handle Link" required autocomplete="off"/>
           </div>
           <div class="field-wrap">
-            <input type="text" placeholder="Username" required autocomplete="off"/>
+            <input type="text" placeholder="Organization Website Link" required autocomplete="off"/>
           </div>
           <div class="top-row">
             <div class="field-wrap">
@@ -96,10 +82,10 @@
           <div class="field-wrap">
             <label class="container">I accept the <i>Code of Conduct</i> of this community
             <input type="checkbox" checked="checked" name="check" id="check">
-            <span class="checkmark"></span>
+            <span class="checkorg"></span>
             </label>
           </div>
-          <button type="submit" class="button-block">Sign In</button>
+          <button type="submit" class="button-block org_sign">Sign In</button>
         </form>
       </div>
     </div>
