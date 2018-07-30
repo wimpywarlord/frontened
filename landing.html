@@ -35,34 +35,39 @@
                 <div class="collapse navbar-collapse justify-content-end" id="basicExampleNav">
                     <!-- Links -->
                     <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
+                      <li class="nav-item flex-center" id="s1">
                         <!-- Search form -->
-                        <form class="form-inline active-cyan-4">
+                        <form class="form-inline active-cyan-4 flex-center">
                           <input class="form-control form-control-sm mr-3" type="text" aria-label="Search">
                           <button type="submit" class="fa font-weight-bold btn-search">Search</button>
                         </form>
                       </li>
-                      <li class="nav-item active">
+                      <li class="nav-item flex-center active">
                         <a class="nav-link" href="#">Home
                           <span class="sr-only">(current)</span>
                         </a>
                         </li>
-                      <li class="nav-item">
+                      <li class="nav-item flex-center">
                         <a class="nav-link"><i class="fa fa-bell white-text"></i></a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item flex-center">
                         <a class="nav-link"><img src="./images/prof.jpg" class="user" alt=""></a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item flex-center">
                         <a class="nav-link" href="#">User Name</a>
                       </li>
                       <!-- Dropdown -->
-                      <li class="nav-item dropdown">
+                      <li class="nav-item flex-center dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Show All</a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Community</a>
+                          <a class="dropdown-item" href="#">Help</a>
                           <a class="dropdown-item" href="#">Something else here</a>
+                          <!-- Search form -->
+                          <form class="form-inline" id="s2">
+                            <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                          </form>
                         </div>
                       </li>>
                     </ul>
@@ -78,12 +83,12 @@
           <div class="container">
             <div class="row pt-5 mt-5 justify-content-center">
               <!--Grid column-->
-              <div class="col-lg-6 col-md-12 padding-0">
+              <div class="col-lg-6 col-md-6 padding-0">
                 <div class="container">
                   <!--Row-->
                   <div class="row pt-0 mt-0 justify-content-center">
                     <!--Grid column-->
-                    <div class="col-lg-6 padding-0">
+                    <div class="col-lg-6 col-md-6 padding-0">
                       <!-- Card -->
                       <a href="./landing.html">
                         <div class="card card-image card-sm" style="background-color: black;">
@@ -102,7 +107,7 @@
                     </div>
                     <!--Grid column-->
                     <!--Grid column-->
-                    <div class="col-lg-6 padding-0">
+                    <div class="col-lg-6 col-md-6 padding-0">
                       <!-- Card -->
                       <a href="#">
                         <div class="card card-image card-sm" style="background-color: white;">
@@ -123,7 +128,7 @@
                   </div>
                   <div class="row pt-0 mt-0 justify-content-center">
                     <!--Grid column-->
-                    <div class="col-lg-6 padding-0">
+                    <div class="col-lg-6 col-md-6 padding-0">
                       <!-- Card -->
                       <a href="#">
                         <div class="card card-image card-sm" style="background-color: white;">
@@ -143,7 +148,7 @@
                     </div>
                     <!--Grid column-->
                     <!--Grid column-->
-                    <div class="col-lg-6 padding-0">
+                    <div class="col-lg-6 col-md-6 padding-0">
                       <!-- Card -->
                       <a href="#">
                         <div class="card card-image card-sm" style="background-color: black;">
@@ -168,7 +173,7 @@
               <!--Grid column-->
 
               <!--Grid column-->
-              <div class="col-lg-6 col-md-12 padding-0">
+              <div class="col-lg-6 col-md-6 padding-0">
                 <!-- Card -->
                 <div class="card card-image card-ma" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
 
@@ -185,147 +190,155 @@
             </div>
             <div class="row pt-5 mt-5">
               <!-- Column -->
-              <div class="col-lg-4 col-md-6 mb-4">
+              <div class="col-lg-4 col-md-6 mb-4 column">
+                <div class="box">
                 <!-- Card -->
-                <div class="card card-image" style="background-color: black;">
-                  <!-- Title -->
-                  <div class="text-white text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h3 class="card-title pt-2"><i class="fa fa-diamond" aria-hidden="true"></i> <strong>Projects</strong></h3>
-                    </div>
+                  <div class="card card-image" style="background-color: black;">
                     <!-- Title -->
+                    <div class="text-white text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h3 class="card-title pt-2"><i class="fa fa-diamond" aria-hidden="true"></i> <strong>Projects</strong></h3>
+                      </div>
+                      <!-- Title -->
+                    </div>
                   </div>
-                </div>
-                <!-- Card -->
-                <!-- Card -->
-                <div class="card card-image card-col" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                  <!-- Card -->
+                  <!-- Card -->
+                  <div class="card card-image card-col" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
 
-                  <!-- Content -->
-                  <div class="text-white text-center d-flex align-items-center py-5 px-4">
-                    <div>
+                    <!-- Content -->
+                    <div class="text-white text-center d-flex align-items-center py-5 px-4">
+                      <div>
+                      </div>
+                    </div>
+                    <!-- Content -->
+                  </div>
+                  <!-- Card -->
+                  <!-- Card -->
+                  <div class="card card-image mb-4" style="background: transparent;">
+                    <!-- Content -->
+                    <div class="text-black text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                      </div>
+                      <!-- Title -->
                     </div>
                   </div>
                   <!-- Content -->
                 </div>
-                <!-- Card -->
-                <!-- Card -->
-                <div class="card card-image mb-4" style="background: transparent;">
-                  <!-- Content -->
-                  <div class="text-black text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                    </div>
+
+                <div class="box">
+                  <!-- Card -->
+                  <div class="card card-image" style="background-color: black;">
                     <!-- Title -->
+                    <div class="text-white text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h3 class="card-title pt-2"><i class="fa fa-certificate" aria-hidden="true"></i> <strong>Different</strong></h3>
+                      </div>
+                      <!-- Title -->
+                    </div>
                   </div>
+                  <!-- Card -->
+                  <!-- Card -->
+                  <div class="card card-image mb-4" style="background: transparent;">
+                    <!-- Content -->
+                    <div class="text-black text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                      </div>
+                      <!-- Title -->
+                    </div>
+                  </div>
+                  <!-- Content -->
                 </div>
-                <!-- Content -->
               </div>
               <!-- Column -->
               <!-- Column -->
-              <div class="col-lg-4 col-md-6 mb-4">
-                <!-- Card -->
-                <div class="card card-image" style="background-color: black;">
-                  <!-- Title -->
-                  <div class="text-white text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h3 class="card-title pt-2"><i class="fa fa-location-arrow" aria-hidden="true"></i> <strong>Events</strong></h3>
-                    </div>
+              <div class="col-lg-4 col-md-6 mb-4 column">
+                <div class="box">
+                  <!-- Card -->
+                  <div class="card card-image" style="background-color: black;">
                     <!-- Title -->
+                    <div class="text-white text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h3 class="card-title pt-2"><i class="fa fa-location-arrow" aria-hidden="true"></i> <strong>Events</strong></h3>
+                      </div>
+                      <!-- Title -->
+                    </div>
                   </div>
-                </div>
-                <!-- Card -->
-                <!-- Card -->
-                <div class="card card-image card-col" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                  <!-- Card -->
+                  <!-- Card -->
+                  <div class="card card-image card-col" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
 
-                  <!-- Content -->
-                  <div class="text-white text-center d-flex align-items-center py-5 px-4">
-                    <div>
+                    <!-- Content -->
+                    <div class="text-white text-center d-flex align-items-center py-5 px-4">
+                      <div>
+                      </div>
+                    </div>
+                    <!-- Content -->
+                  </div>
+                  <!-- Card -->
+                  <!-- Card -->
+                  <div class="card card-image mb-4" style="background: transparent;">
+                    <!-- Content -->
+                    <div class="text-black text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                      </div>
+                      <!-- Title -->
                     </div>
                   </div>
                   <!-- Content -->
                 </div>
-                <!-- Card -->
-                <!-- Card -->
-                <div class="card card-image mb-4" style="background: transparent;">
-                  <!-- Content -->
-                  <div class="text-black text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                    </div>
-                    <!-- Title -->
-                  </div>
-                </div>
-                <!-- Content -->
               </div>
               <!-- Colomn -->
               <!-- Colomn -->
-              <div class="col-lg-4 col-md-6 mb-4">
-                <!-- Card -->
-                <div class="card card-image" style="background-color: black;">
-                  <!-- Title -->
-                  <div class="text-white text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h3 class="card-title pt-2"><i class="fa fa-certificate" aria-hidden="true"></i> <strong>Scholarships</strong></h3>
-                    </div>
+              <div class="col-lg-4 col-md-6 mb-4 column">
+                <div class="box">
+                  <!-- Card -->
+                  <div class="card card-image" style="background-color: black;">
                     <!-- Title -->
+                    <div class="text-white text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h3 class="card-title pt-2"><i class="fa fa-certificate" aria-hidden="true"></i> <strong>Scholarships</strong></h3>
+                      </div>
+                      <!-- Title -->
+                    </div>
                   </div>
-                </div>
-                <!-- Card -->
-                <!-- Card -->
-                <div class="card card-image mb-4" style="background: transparent;">
+                  <!-- Card -->
+                  <!-- Card -->
+                  <div class="card card-image mb-4" style="background: transparent;">
+                    <!-- Content -->
+                    <div class="text-black text-center d-flex align-items-center py-3 px-4">
+                      <div>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                        <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
+                      </div>
+                      <!-- Title -->
+                    </div>
+                  </div>
                   <!-- Content -->
-                  <div class="text-black text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                    </div>
-                    <!-- Title -->
-                  </div>
                 </div>
-                <!-- Content -->
-
-                <!-- Card -->
-                <div class="card card-image" style="background-color: black;">
-                  <!-- Title -->
-                  <div class="text-white text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h3 class="card-title pt-2"><i class="fa fa-certificate" aria-hidden="true"></i> <strong>Different</strong></h3>
-                    </div>
-                    <!-- Title -->
-                  </div>
-                </div>
-                <!-- Card -->
-                <!-- Card -->
-                <div class="card card-image mb-4" style="background: transparent;">
-                  <!-- Content -->
-                  <div class="text-black text-center d-flex align-items-center py-3 px-4">
-                    <div>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                      <h5 class="card-title pt-2"><img src="./images/prof.jpg" class="user" alt=""> <strong>Projects</strong></h5>
-                    </div>
-                    <!-- Title -->
-                  </div>
-                </div>
-                <!-- Content -->
               </div>
               <!-- Colomn -->
             </div>

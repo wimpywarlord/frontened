@@ -12,14 +12,23 @@ header nav#part4{
   margin-top: 130px;
 }
 .card-ma{
-  min-height: 40vh;
+  min-height: 344px;
 }
 .card-sm{
-  height: 20vh;
+  height: 172px;;
 }
 .card-col{
-  height: 20vh;
+  height: 172px;
 }
+.column{
+  display:flex;
+  flex-direction:column;
+}
+.box{background-color:white;
+  display:block;
+  box-sizing: border-box;
+}
+
 .padding-0{
     padding-right:0;
     padding-left:0;
@@ -90,6 +99,9 @@ button.btn-search{
     border: 2px solid #616161;
     height: 45px;
 }
+#s2{
+  display: none;
+}
 @media (max-width: 990px){
   main{
     margin-top: 45px;;
@@ -105,5 +117,21 @@ button.btn-search{
   }
   #phrase{
     display: none;
+  }
+}
+@media(max-width:1200px) and (min-width:988px){
+  #s2{
+    display: block;
+  }
+  #s1{
+    display: none;
+  }
+}
+@media (max-width: 988px){
+  #s2{
+    display: none;
+  }
+  #s1{
+    display: block;
   }
 }
