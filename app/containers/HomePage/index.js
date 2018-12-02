@@ -11,15 +11,19 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { version } from 'antd';
+// import "antd/dist/antd.css";
 import messages from './messages';
 
-/* eslint-disable react/prefer-stateless-function */
 export default class HomePage extends React.PureComponent {
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+      <div>
+        <p>Current antd version: {version}</p>
+        <h1>
+          <FormattedMessage {...messages.header} />
+        </h1>
+      </div>
     );
   }
 }
